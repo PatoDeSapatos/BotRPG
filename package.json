@@ -1,0 +1,26 @@
+{
+  "name": "botrpg",
+  "version": "1.0.0",
+  "description": "bot para ajudar em sessoes de rpg",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "type": "module",
+  "keywords": [
+    "bot",
+    "discord",
+    "rpg",
+    "ifsp"
+  ],
+  "authors": [
+    "Pato de Sapatos",
+    "Heitor Brazil",
+    "Monique"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3"
+  }
+}
