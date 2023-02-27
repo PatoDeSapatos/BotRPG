@@ -16,6 +16,7 @@ class BotRPG extends Client {
 
         this.elogin(process.env.TOKEN)
         this.once(Events.ClientReady, this.ready)
+        this.on(Events.InteractionCreate, this.commandExecutor)
     }
 
     //COCO MOLE
