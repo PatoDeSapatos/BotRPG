@@ -4,7 +4,7 @@
   "description": "bot para ajudar em sessoes de rpg",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node BotRPG.js"
   },
   "type": "module",
   "keywords": [
